@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NroPrimo</title>
+	<style type="text/css">
+		
+	</style>
+	<script>
+	var nro=parseInt(prompt('Introducí un número para saber si es primo', ''));
+		if (nro == 1 || nro == 2) {
+			alert("El número "+nro+" es primo"); 
+		}
+		else{
+			for (var i=2;i<nro;i++) {
+				if(nro % i == 0) {
+					alert("El número "+nro+" no es primo"); 
+			break;
+		}
+
+		else{
+			alert('El número '+nro+" es primo"); 
+		break;
+		}
+		}
+		
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+
+</script>
+	
+</body>
+</html>
