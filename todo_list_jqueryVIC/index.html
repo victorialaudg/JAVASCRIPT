@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List con JQuery</title>
+</head>
+<body><!DOCTYPE html>
+<html>
+<head>
+  <title>Simple todo list</title>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src='js/todo_list.js'></script>
+  <script type="text/javascript" src='js/script.js'></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/todo_list.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="todolist not-done">
+          <h1>To-Do List</h1>
+          <input id="input-task" type="text" class="form-control add-todo" placeholder="Ingrese una tarea">
+          <button id="btn-add" class="btn btn-success center-block">Agregar</button>
+          <hr>
+
+          <ul id="todo-list" class="list-unstyled">
+            
+          </ul>
+
+          
+          </div>
+          <div class="todo-footer">
+            <strong><span id="count-todos">0</span> tareas pendientes</strong>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="done">
+              <h1>Tareas realizadas</h1>
+              <ul id="todo-listdone" class="list-unstyled">
+            
+             </ul>
+            </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+</body>
+</html>
